@@ -1,0 +1,9 @@
+---
+subtitle: Teste Isaac
+header-left: Cabeçalho teste
+date: v1.0.0 (FEV/2024)
+eletra-options-file: ../docs-template/user-manual-options.yaml
+eletra-out-pdf: '../out/"Teste_Isaacpdf".pdf'
+eletra-out-html: '../out/"Teste_Isaac".html'
+eletra-files: [exemplo.md]
+...
