@@ -22,9 +22,25 @@ Exemplo de Imagem:
 
 Tem raízes numa peça de literatura clássica em Latim, de 45 AC, 33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), por Cícero, escrito a 45AC. Este livro é um tratado na teoria da ética, muito popular durante a Renascença. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet..." aparece de uma linha na secção 1.10.32.
 
-###Quarta Parte
+### Quarta Parte
 - Tipo o primeiro
 - Tipo o segunfo
+
+1. Primeiro item
+2. Segundo item
+   - Um sub-item
+   - Outro sub-item
+3. Terceiro item
+
+##### Tabela
+
+Caracter | Permissão
+---------|----------
+`r`      | Permissão de leitura (*read*)
+`w`      | Permissão de escrita (*write*)
+`x`      | Permissão de execução (*execute*)
+`-`      | Permissão desabilitada
+
 
 Exemplo de link para site:<https://www.markdownguide.org>
 Exemplo de email: <fake@example.com>
