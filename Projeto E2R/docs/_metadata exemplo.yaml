@@ -1,9 +1,9 @@
 ---
-subtitle:  Eletra Energy Solutions - E2R Mobile
+subtitle: Projeto E2R
 header-left: Manual do Produto
 date: V1.0.0 (FEV/2024)
 eletra-options-file: ../docs-template/user-manual-options.yaml
 eletra-out-pdf: '../out/"Manual do Produto - E2R".pdf'
 eletra-out-html: '../out/"Manual do Produto - E2R".html'
-eletra-files: [manual.md]
+eletra-files: [exemplo.md]
 ...
