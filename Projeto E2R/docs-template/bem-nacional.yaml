@@ -1,0 +1,35 @@
+---
+pdf-options:
+  --template ../docs-template/latex/eletra
+  --pdf-engine=xelatex 
+  --listings 
+  --number-sections 
+  --table-of-contents 
+  --toc-depth=2 
+
+html-options:
+  -f markdown+footnotes 
+  --template ../docs-template/html/standalone.html 
+  --css ../docs-template/html/uikit.css 
+  --toc --toc-depth=4 
+  --listings 
+  --number-sections 
+  --file-scope 
+
+pandoc-options:
+  title: Requerimento do Reconhecimento da Condição de Bem Desenvolvido no País
+  keywords: [Requerimento, Reconhecimento, Condicao, Bem, Desenvolvido, Pais]
+  footer-left: \url{http://www.eletraenergy.com/}
+  titlepage: true
+  titlepage-background: ../docs-template/background/covereletra.pdf
+  listings-no-page-break: true
+  table-use-rows-colors: true
+  lang: pt-BR
+  header-includes: |
+    \usepackage{sectsty}
+    \sectionfont{\clearpage}
+    \usepackage{soul}
+    \usepackage{longtable}\setlength{\LTleft}{2em}
+    \usepackage{fontspec}
+    \usepackage{xeCJK}
+...

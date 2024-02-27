@@ -1,0 +1,40 @@
+---
+pdf-options:
+  --template ../docs-template/latex/eletra
+  --pdf-engine=xelatex 
+  --listings 
+  --number-sections 
+  --table-of-contents 
+  --toc-depth=3 
+
+html-options:
+  -f markdown+footnotes 
+  --template ../docs-template/html/standalone.html 
+  --css ../docs-template/html/uikit.css 
+  --toc --toc-depth=4 
+  --listings 
+  --number-sections 
+  --file-scope 
+
+pandoc-options:
+  title: Product Specification
+  keywords: [Product, Specification]
+  footer-left: \url{http://www.eletraenergy.com/}
+  titlepage: true
+  titlepage-background: ../docs-template/background/covereletra.pdf
+  page-background: ../docs-template/background/confidencial-pt.pdf
+  page-background-opacity: 0.4
+  listings-no-page-break: true
+  table-use-rows-colors: true
+  -V lang: pt-BR
+  listings-disable-line-numbers: true
+  header-includes: |
+    \usepackage{sectsty}
+    \usepackage{soul}
+    \sectionfont{\clearpage}
+    \usepackage{longtable}\setlength{\LTleft}{2em}
+    \usepackage{fontspec}
+    \usepackage{xeCJK}
+    \usepackage[brazilian]{babel}
+    
+...

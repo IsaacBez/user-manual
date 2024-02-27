@@ -1,0 +1,16 @@
+---
+subtitle: Zeus NG
+header-left: Product Specification - Zeus NG
+date: v1.0.0 (ABR/2020)
+eletra-options-file: ../docs-template/specification-options.yaml
+eletra-out-pdf: '../out/"Product Specification - Zeus NG".pdf'
+eletra-out-html: '../out/"Product Specification - Zeus NG".html'
+eletra-files: [Overview.md,
+  Devices.md,
+  ProductConcept.md,
+  Standards.md,
+  Hardware.md,
+  CommandList.md,
+  Schema.md,
+  Changelog.md]
+...
